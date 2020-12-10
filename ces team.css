@@ -359,10 +359,10 @@ color:black;
 
 
 @media (max-width: 1100px) {
-  /*.services{
+  .services{
     display:grid;
     flex-direction: ;
-  }*/
+  }
 .cards{
   max-width: 99%;
 }
