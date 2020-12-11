@@ -32,7 +32,6 @@ ul, ol {
 
 .slider .slider-parent .heading{
   position : absolute;
-  z-index : 1;
   top : 40%;
   color : #fff;
   left : 10%;
