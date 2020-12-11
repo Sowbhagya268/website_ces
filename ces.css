@@ -84,6 +84,7 @@ nav ul li a:hover{
 nav ul ul li a:hover{
   box-shadow: none;
 }
+
 nav ul ul{
 
   position: absolute;
@@ -355,7 +356,7 @@ nav .logo img{
 
 /*hod message page*/
 .HOD{
-  max-width: 98%;
+  max-width: 99%;
   max-height: auto;
   margin: 0px auto;
   padding: 0px;
@@ -384,40 +385,47 @@ nav .logo img{
 }
 .mainpage-2{
   display: ;
-  text-align: center;
-
+  text-align: left;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
   border: 0px solid black;
   border-radius: 4px;
   transition: all .3s ease;
 }
-.mainpage-2 img{
+/*.mainpage-2 img{
 	float: left;
 	width: 300px;
 	height: 300px;
 	clip-path:circle() ;
 	shape-outside: circle();
 	shape-margin: 10px;
-}
+}*/
 .mainpage-2 p{
-float: ;
-
+  float: ;
+  color : #666666;
 	line-height: 30px;
-	font-size: 25px;
+	font-size: 22px;
 	font-family: vardena;
 	word-spacing: 8px;
 
 
 }
-.mainpage-2 span{
-	font-size: 50px;
-	text-transform: uppercase;
+
+.mainpage-2  li{
+ color : #666666;
+ font-size: 18px;
+ margin-left : 20px;
+ letter-spacing: 1px;
+ word-spacing: 3px;
+ line-height: 30px;
 }
-.mainpage-2 h2{
-	float: right;
-	font-size: 30px;
+
+.mainpage-2 p span , h2{
+ font-size: 32px;
+ font-weight: bold;
+ color: #ff471a;
 }
+
 /*dynamic*/
 .HOD {
   -webkit-animation-name: slideInLeft;
