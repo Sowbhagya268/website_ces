@@ -282,6 +282,9 @@ nav .logo img{
 div.desc {
   padding: 15px;
   text-align: center;
+  display: ;
+  flex-wrap: wrap;
+  flex: 1;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 /*@media all and (max-width: 900px) {

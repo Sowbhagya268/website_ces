@@ -154,6 +154,8 @@ nav ul ul li a{
   nav ul li a:hover{
     box-shadow: none;
   }
+
+
   .show{
     display: block;
     color: #666666;
@@ -242,7 +244,7 @@ nav .logo img{
 }
 
 hr{
-  width: 100px;
+  width: 250px;
   height: 3px;
   background: black;
   color: black;
@@ -250,9 +252,9 @@ hr{
 
 
 .content{
-  display:flex ;
+  /*display:flex ;
   flex-wrap: wrap;
-  flex: 1;
+  flex: 1;*/
   margin: 20px;
   padding: 20px;
   border: 0px solid black;
@@ -263,23 +265,27 @@ hr{
 
 .content p{
   color : #666666;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 1px;
   word-spacing: 3px;
   line-height: 30px;
 }
 
+/*.activity{
+  margin-top : 20px;
+  margin-bottom : 15px;
+}*/
  .content  li{
   color : #666666;
-  font-size: 22px;
+  font-size: 18px;
   margin-left : 20px;
   letter-spacing: 1px;
   word-spacing: 3px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .content p span , h2{
-  font-size: 35px;
+  font-size: 32px;
   font-weight: bold;
   color: #ff471a;
 }

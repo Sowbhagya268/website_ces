@@ -359,10 +359,10 @@ a {
   -webkit-text-decoration-skip: objects;
 }
 
-a:hover {
+/*a:hover {
   color: #0056b3;
   text-decoration: underline;
-}
+}*/
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -9111,9 +9111,10 @@ a.text-dark:hover, a.text-dark:focus {
     text-shadow: none !important;
     box-shadow: none !important;
   }
+  /*
   a:not(.btn) {
     text-decoration: underline;
-  }
+  }*/
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
