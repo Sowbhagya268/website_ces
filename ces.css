@@ -178,7 +178,7 @@ nav ul ul li a{
     font-size: 30px;
     border : 2px solid #777;
     border-radius: 7px;
-    padding : 2px 7px;
+    padding : 1px 7px;
     margin-left : 10px;
   }
   nav ul ul{
@@ -230,6 +230,22 @@ nav .logo img{
 
 
 
+
+@media (min-width: 200px) {
+    .carousel-caption { font-size: 0.7rem; }
+}
+@media (min-width: 600px) {
+    .carousel-caption { font-size: 1rem; }
+}
+@media (min-width: 768px) {
+    .carousel-caption { font-size: 1.25rem; }
+}
+@media (min-width: 992px) {
+    .carousel-caption { font-size: 1.5rem; }
+}
+@media (min-width: 1200px) {
+    .carousel-caption { font-size: 2rem; }
+}
 
 
 

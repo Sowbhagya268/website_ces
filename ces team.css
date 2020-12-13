@@ -161,15 +161,19 @@ nav ul ul li a{
   .show:hover{
     color: black;
   }
-  .icon{
+	.icon{
     display: block;
     color: black;
     position: absolute;
-    top: 0;
-    right: 20px;
-    line-height: 100px;
+    top: 25px;
+    right: 10px;
+    /*line-height: 100px;*/
     cursor: pointer;
     font-size: 30px;
+    border : 2px solid #777;
+    border-radius: 7px;
+    padding : 1px 7px;
+    margin-left : 10px;
   }
   nav ul ul{
 

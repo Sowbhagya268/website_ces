@@ -71,7 +71,7 @@ body {
 
 
 
-nav{
+/*nav{
 
   position: fixed;
   top: 0;
@@ -203,7 +203,7 @@ nav ul ul li a{
   .show:hover{
     color: black;
   }
-  .icon{
+  /*.icon{
     display: block;
     color: black;
     position: absolute;
@@ -257,7 +257,7 @@ nav .logo img{
   padding-left: 10px;
 }
 
-}
+}*/
 
 
 
@@ -6237,9 +6237,8 @@ button.close {
 
 .carousel-caption {
   position: absolute;
-  font-size: 35px;
   right: 15%;
-  top : 30%;
+  top : 35%;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
