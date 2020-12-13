@@ -7,16 +7,33 @@
   <link rel="shortcut icon" type="ces/png" href="ces/favicon.png">
 	<link rel="stylesheet" type="text/css" href="ces.css">
 	<!-- <link rel="stylesheet" href="bootstrap.css"> -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" /> 
-  <link rel="stylesheet" href="slider.css" />
+	<link rel="stylesheet" href="bootstrap.css" />
+  <!--<link rel="stylesheet" href="slider.css" /> -->
 	<link rel="stylesheet" type="text/css" href="java.js">
 	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+/* Make the image fully responsive */
+		.carousel{
+			margin-top : 110px;
+		}
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+			max-height : 650px;
+		}
+		.decor{
+			font-family: Georgia;
+		}
+
+	</style>
 </head>
 <body>
-
 
 
 
@@ -99,100 +116,56 @@
 
 
 
-		<!-- <div class="slideshow-container">
 
-		      <div class="mySlides fade">
 
-		        <img class="slide_image" src="ces/b_block.jpg" style="width:100%">
-		        <div class="text">Civil Engineering Society <br> IIT Hyderabad </div>
-		      </div>
 
-		      <div class="mySlides fade">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 
-		        <img class="slide_image" src="ces/image2.jpg" style="width: 100%">
-		        <div class="text">Civil Engineering Society <br> IIT Hyderabad </div>
-		      </div>
 
-		      <div class="mySlides fade">
+		  <ul class="carousel-indicators">
+		    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#myCarousel" data-slide-to="1"></li>
+		    <li data-target="#myCarousel" data-slide-to="2"></li>
+		  </ul>
 
-		        <img class="slide_image" src="ces/image3.jpg" style="width:100%">
-		        <div class="text">Civil Engineering Society <br> IIT Hyderabad </div>
-		      </div>
 
-					<div class="mySlides fade">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="ces/image3.jpg">
+					<div class="carousel-caption">
+						<h1 class="decor" > Civil Engineering Society <br> IIT Hyderabad </h1>
+					</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="ces/b_block.jpg">
+					<div class="carousel-caption">
+						<h1 class="decor"> Civil Engineering Society <br> IIT Hyderabad </h1>
+					</div>
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="ces/mess.jpg">
+					<div class="carousel-caption">
+						<h1 class="decor"> Civil Engineering Society <br> IIT Hyderabad </h1>
+					</div>
+		    </div>
+		  </div>
 
-		        <img class="slide_image" src="ces/hostel_pic.jpg" style="width:100%">
-		        <div class="text">Civil Engineering Society <br> IIT Hyderabad </div>
-		      </div>
+
+		  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </a>
+		  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </a>
+		</div>
 
 		</div>
-		    <br>
-
-		    <div style="text-align:center">
-		      <span class="dot"></span>
-		      <span class="dot"></span>
-		      <span class="dot"></span>
-					<span class="dot"></span>
-		    </div>
-
-		    <script>
-		      var slideIndex = 0;
-		      showSlides();
-
-		      function showSlides() {
-		        var i;
-		        var slides = document.getElementsByClassName("mySlides");
-		        var dots = document.getElementsByClassName("dot");
-		        for (i = 0; i < slides.length; i++) {
-		          slides[i].style.display = "none";
-		        }
-		        slideIndex++;
-		        if (slideIndex > slides.length) {slideIndex = 1}
-		        for (i = 0; i < dots.length; i++) {
-		          dots[i].className = dots[i].className.replace(" active", "");
-		        }
-		        slides[slideIndex-1].style.display = "block";
-		        dots[slideIndex-1].className += " active";
-		        setTimeout(showSlides, 3000); // Change image every 2 seconds
-		      }
-
-		    </script> -->
 
 
 
 
 
-	<div class="main">
-    <div class="slider">
-      <ul class="slider-parent">
-        <li class="images-list"> <img src="ces/b_block.jpg" class="images-list">
-          <div>
-            <h2 class="heading"> Civil Engineering Society <br> IIT Hyderabad </h2>
-          </div>
-        </li>
-        <li class="images-list"> <img src="ces/mess.jpg" class="images-list"> </li>
-        <li class="images-list"> <img src="ces/hostel_pic.jpg" class="images-list"> </li>
-        <li class="images-list"> <img src="ces/image3.jpg" class="images-list"> </li>
-        <li class="images-list"> <img src="ces/image2.jpg" class="images-list"> </li>
-        <li class="images-list"> <img src="ces/b_block.jpg" class="images-list"> </li>
-      </ul>
 
-      <ol class="buttom-circles">
-        <li class="buttom-circles-list slider-active" data-slider="1"><i class="fa fa-circle-thin"></i></li>
-        <li class="buttom-circles-list" data-slider="2"><i class="fa fa-circle-thin"></i></li>
-        <li class="buttom-circles-list" data-slider="3"><i class="fa fa-circle-thin"></i></li>
-        <li class="buttom-circles-list" data-slider="4"><i class="fa fa-circle-thin"></i></li>
-        <li class="buttom-circles-list" data-slider="5"><i class="fa fa-circle-thin"></i></li>
-        <li class="buttom-circles-list" data-slider="6"></li>
-      </ol>
-
-      <i class="fa fa-chevron-right fa-5x"></i>
-      <i class="fa fa-chevron-left fa-5x"></i>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	  <script  src="javas.js"></script>
 
 
 
@@ -228,11 +201,6 @@
 	            <li> Scheduled networking events between freshers and the seniors. </li>
 	            <li> Monthly circulation of innovative and new research development made in the said month in the field of Civil Engineering. </li>
 	            <li> Talks by industrial leaders about the job market and job profiles of Civil Engineers. </li>
-						<!-- <img src="ces/surya.jpg">
-						<p>
-							<span>t</span>he ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?Musi River or Musinuru is a tributary of the Krishna River in the Deccan Plateau flowing through Telangana state in India. Hyderabad stands on the banks of  Himayat Sagar and Osman </p><br>
-
- 						<h2>- Dr. Suriya Prakash</h2> -->
 
         </div>
  </div>
@@ -249,24 +217,27 @@
 
 
 <div class="updates">
+
      <div class="updates-display">
 
-
         <div class="seminars and events">
-          <h2 class="head">Seminars</h2>
-<marquee direction="up" scrollamount="2" height="200px"> This displays the information related to all the seminars that are going to be conducted </marquee>
-		<a class="page-links" href="seminar.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          <h2 class="head">NEWS</h2>
+					<marquee direction="up" scrollamount="2" height="200px"> IIT Hyderabad Inter-IIT Civil Contingent has finished and secured 5th among 13 IITs
+						in the Inter-IIT Civil Conclave 2020 organized by IIT Roorkee during November 7th-8th.</marquee>
+					<a class="page-links" href="seminar.html"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
 
 
-<div class="seminars and events">
+				<div class="seminars and events">
           <h2 class="head">Events</h2>
-          <marquee direction="up" scrollamount="2" height="200px"> This displays the information related to all the events that are going to be conducted. </marquee>
-		<a class="page-links" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+          <marquee direction="up" scrollamount="2" height="200px">
+						Civil Engineering Society(CES) Orientation and Placement Talk - 1 was successfully organized on 24th October, 2020. <br> <br>
+						Presentation of the month series coming soon! </marquee>
+					<a class="page-links" href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
 
+			</div>
 
-</div>
 </div>
 
 
