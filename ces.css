@@ -231,8 +231,8 @@ nav .logo img{
 
 
 
-@media (min-width: 200px) {
-    .carousel-caption { font-size: 0.7rem; }
+@media (min-width: 100px) {
+    .carousel-caption { font-size: 0.5rem; }
 }
 @media (min-width: 600px) {
     .carousel-caption { font-size: 1rem; }
