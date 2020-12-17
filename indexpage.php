@@ -2,7 +2,7 @@
 
     if(isset($_POST['btn-send']))
     {
-       $UserName = $_POST['UName'];
+       $UserName = $_POST['Name'];
        $Email = $_POST['Email'];
        $Subject = 'CES Queries';
        $Queries = $_POST['Queries'];
@@ -21,7 +21,7 @@
            }
        }
     }
-    
+
     else
     {
         header("location:indexpage.php");
