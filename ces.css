@@ -406,20 +406,11 @@ box-shadow:  0px 3px 6px #999999;
 }
 
 marquee{
-
   font-size: 18px;
   scroll-behavior: smooth;
   padding : 20px;
 }
-.page-links{
-  margin-right: 10px;
-  padding : 10px;
-  /*padding-bottom: 10px;*/
-  float: right;
-  font-size: 20px;
-  color: black;
 
-}
 @media (max-width: 800px) {
   .updates-display{
     display: grid;
