@@ -174,12 +174,12 @@ nav ul ul li a{
     /*line-height: 100px;*/
     cursor: pointer;
     font-size: 30px;
-    border : 2px solid #777;
+    border : 1px solid #777;
     border-radius: 7px;
     padding : 1px 7px;
     margin-left : 10px;
   }
-  
+
   nav ul ul{
 
     top: 70px;
@@ -431,6 +431,10 @@ letter-spacing: 1px;
   max-width: 99%;
 }
 
+.content:hover{
+transform: none;
+transition: none;
+}
 
 }
 
